@@ -12,13 +12,13 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "autoprefixer": "^10.4.24",
     "body-parser": "^2.2.2",
-    "express": "^5.2.1",
-    "postcss": "^8.5.6",
-    "tailwindcss": "^4.2.0"
+    "express": "^5.2.1"
   },
   "devDependencies": {
-    "nodemon": "^3.1.11"
+    "autoprefixer": "^10.4.24",
+    "nodemon": "^3.1.11",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19"
   }
 }
