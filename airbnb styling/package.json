@@ -1,11 +1,12 @@
 {
-  "name": "airbnb-styling",
+  "name": "dynamic-ui",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "tailwind": "tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "start": "nodemon app.js & npm run tailwind"
   },
   "keywords": [],
   "author": "",
